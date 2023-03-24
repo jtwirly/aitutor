@@ -1,4 +1,4 @@
-# aitutor
+# AI Tutor
 PyTorch-based Coding Learning AI Project
 
 AITutor is an AI-based system designed to facilitate coding learning for beginners. The system utilizes machine learning and natural language processing techniques to provide personalized feedback to students as they practice coding problems.
