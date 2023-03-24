@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Ask a question about Python</title>
+  </head>
+  <body>
+    <h1>Ask a question about Python</h1>
+    <form method="POST" action="{{ url_for('answer') }}">
+      <input type="text" name="question">
+      <input type="submit" value="Submit">
+    </form>
+    {% if answer %}
+    <p>{{ answer }}</p>
+    {% endif %}
+  </body>
+</html>
